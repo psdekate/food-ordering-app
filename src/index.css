@@ -37,7 +37,6 @@ body {
 }
 
 #main-header button {
-  font-size: 1.5rem;
 }
 
 h1 {
@@ -48,20 +47,17 @@ h1 {
 }
 
 #meals {
-  width: 90%;
-  max-width: 70rem;
-  list-style: none;
+  width: 90vw;
   padding: 1rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin: 0 auto;
 }
 
 .meal-item {
   background-color: #1d1a16;
-  border-radius: 1rem;
-  overflow: hidden;
-  text-align: center;
+  border-radius: 4px;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
 }
 
@@ -195,7 +191,6 @@ h1 {
   cursor: pointer;
   background-color: #ffc404;
   border: 1px solid #ffc404;
-  color: #1f1a09;
   padding: 0.5rem 1.5rem;
   border-radius: 4px;
 }

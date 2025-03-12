@@ -4,10 +4,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter";
 }
 
 body {
-  font-family: "Inter";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(#29251c, #2c2306);
@@ -19,7 +19,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3rem 10%;
+  padding: 3rem;
 }
 
 #main-header #title {
@@ -43,7 +43,6 @@ body {
 h1 {
   font-weight: 700;
   font-size: 2rem;
-  margin: 0;
   color: #ffc404;
   text-transform: uppercase;
 }
@@ -52,7 +51,6 @@ h1 {
   width: 90%;
   max-width: 70rem;
   list-style: none;
-  margin: 2rem auto;
   padding: 1rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
@@ -83,11 +81,9 @@ h1 {
 .meal-item h3 {
   font-size: 1.5rem;
   font-weight: bold;
-  margin: 0.75rem 0;
 }
 
 .meal-item-description {
-  margin: 1rem;
 }
 
 .meal-item-price {
@@ -97,21 +93,18 @@ h1 {
   font-size: 0.9rem;
   font-weight: bold;
   padding: 0.5rem 2rem;
-  margin: 0;
   border-radius: 4px;
 }
 
 .meal-item-actions {
-  margin-bottom: 1.5rem;
 }
 
 .cart h2 {
-  margin: 1rem 0;
 }
 
 .cart ul {
   list-style: none;
-  margin: 0.5rem 0;
+
   padding: 0;
 }
 
@@ -133,7 +126,6 @@ h1 {
 .cart-total {
   display: flex;
   justify-content: flex-end;
-  margin: 2rem 0;
   font-size: 1.15rem;
   font-weight: bold;
   color: #46443c;
@@ -143,11 +135,9 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0.5rem 0;
 }
 
 .cart-item p {
-  margin: 0;
 }
 
 .cart-item-actions {
@@ -177,14 +167,12 @@ h1 {
 }
 
 .control {
-  margin: 0.5rem 0;
   display: flex;
   flex-direction: column;
 }
 
 .control label {
   font-weight: bold;
-  margin-bottom: 0.5rem;
 }
 
 .control input {

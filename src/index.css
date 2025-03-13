@@ -61,6 +61,24 @@ h1 {
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
 }
 
+.center {
+  text-align: center;
+}
+
+.error {
+  display: flex;
+  width: 20rem;
+  margin: 0 auto;
+  border-radius: 4px;
+  justify-content: center;
+  padding: 1rem;
+  background-color: rgb(255, 144, 144);
+  color: rgb(255, 49, 49);
+  text-align: center;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
 .meal-item article {
   height: 100%;
   display: flex;
